@@ -1,0 +1,29 @@
+.about {
+    margin: auto;
+    padding: 15rem 2rem;
+    display: block;
+    height: auto;
+    max-width: 1000px;
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+#sh {
+    padding: 8px;
+    text-align: justify;
+}
+
+.para {
+    text-indent: 30px;
+}
+
+#h1about {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 15rem 5rem;
+    }
+}
