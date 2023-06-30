@@ -36,8 +36,10 @@
     align-items: center;
     padding: 10px;
     border-radius: 27px;
-    box-shadow: -20px 20px 1px 1px rgba(0, 0, 0, 0.505);
-    width: 282px;
+    box-shadow: -12px 12px 1px 1px rgba(104, 104, 104, 0.505);
+    background-color: var(--ghostwhite);
+    width: 311px;
+    color: var(--black);
     height: auto;
 }
 
