@@ -7,8 +7,26 @@
     height: 100vh;
 }
 
-.abbrt{
+.abbrt {
     text-decoration: none;
+}
+
+.out {
+    display: flex;
+}
+
+.soundcloud {
+    width: 70px;
+    height: 50px;
+    margin: auto;
+    margin-left: 150px;
+}
+
+.youtube {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-right: 150px;
 }
 
 main {
@@ -40,5 +58,19 @@ main {
 
     .homepic {
         height: auto;
+    }
+
+    .soundcloud {
+        width: 80px;
+        height: 45px;
+        margin: auto;
+        margin-left: 25px;
+    }
+    
+    .youtube {
+        width: 70px;
+        height: 70px;
+        margin: auto;
+        margin-right: 25px;
     }
 }
