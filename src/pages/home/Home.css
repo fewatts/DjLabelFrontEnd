@@ -13,7 +13,7 @@
 
 .out {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .soundcloud {
@@ -21,7 +21,6 @@
     width: 80px;
     height: 48px;
     margin: auto;
-    margin-left: 134px;
 }
 
 .youtube {
@@ -63,6 +62,7 @@ main {
     }
 
     .out {
+        margin: auto;
         display: flex;
         align-items: center;
     }
