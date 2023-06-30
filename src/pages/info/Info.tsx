@@ -12,7 +12,7 @@ export function Info() {
             <div className='infobox'>
                     <div className='card'>
                         <img src='https://i1.sndcdn.com/avatars-QVoUubV5OVX1nbiT-yyXy0A-t500x500.jpg' alt="Teta" className='profilepic' />
-                        <h1 className='h1but'>Bem4venturado</h1>
+                        <h2 className='h1but'>Bem4venturado</h2>
                         <h3><strong>House</strong></h3>
                         <div className='divBut'>
 
@@ -26,7 +26,7 @@ export function Info() {
                 <div className='infobox'>
                     <div className='card'>
                         <img src='https://i1.sndcdn.com/avatars-XNvFE6BT4CmhlhVY-6qpkHQ-t500x500.jpg' alt="CostaI" className='profilepic' />
-                        <h1 className='h1but'>CostaI</h1>
+                        <h2 className='h1but'>CostaI</h2>
                         <h3><strong>DeepTech</strong></h3>
                         <div className='divBut'>
 
@@ -39,7 +39,7 @@ export function Info() {
                 <div className='infobox'>
                     <div className='card'>
                         <img src='https://i1.sndcdn.com/avatars-xkz1oQLLXfpKeEZf-LTaThQ-t500x500.jpg' alt="Dabague" className='profilepic' />
-                        <h1 className='h1but'>Dabague</h1>
+                        <h2 className='h1but'>Dabague</h2>
                         <h3><strong>PsyTrance</strong></h3>
                         <div className='divBut'>
 
@@ -52,7 +52,7 @@ export function Info() {
                 <div className='infobox'>
                     <div className='card'>
                         <img src='https://i1.sndcdn.com/avatars-mNAxqOghXvLnDEiO-l73tUg-t500x500.jpg' alt="Laomer" className='profilepic' />
-                        <h1 className='h1but'>Laomer</h1>
+                        <h2 className='h1but'>Laomer</h2>
                         <h3><strong>House</strong></h3>
                         <div className='divBut'>
 
@@ -65,7 +65,7 @@ export function Info() {
                 <div className='infobox'>
                     <div className='card'>
                         <img src='https://i1.sndcdn.com/avatars-PLUYBW7LFwGAn2vR-UOrM1A-t500x500.jpg' alt="Oghthraxx" className='profilepic' />
-                        <h1 className='h1but'>Oghthraxx</h1>
+                        <h2 className='h1but'>Oghthraxx</h2>
                         <h3><strong>Techno & Phonk</strong></h3>
                         <div className='divBut'>
 
@@ -78,7 +78,7 @@ export function Info() {
                 <div className='infobox'>
                     <div className='card'>
                         <img src='https://i1.sndcdn.com/avatars-ptppwi5a88f6rK1y-bzyGcQ-t500x500.jpg' alt="SpinnenKopf" className='profilepic' />
-                        <h1 className='h1but'>SpinnenKopf</h1>
+                        <h2 className='h1but'>SpinnenKopf</h2>
                         <h3><strong>Techno</strong></h3>
                         <div className='divBut'>
 
@@ -92,7 +92,7 @@ export function Info() {
                 <div className='infobox'>
                     <div className='card'>
                         <img src='https://i1.sndcdn.com/avatars-L4EPEPnRPkxui7lS-5vUGKQ-t500x500.jpg' alt="Zanqueta" className='profilepic' />
-                        <h1 className='h1but'>Zanqueta</h1>
+                        <h2 className='h1but'>Zanqueta</h2>
                         <h3><strong>PsyTechno</strong></h3>
                         <div className='divBut'>
 
