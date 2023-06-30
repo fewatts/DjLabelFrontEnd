@@ -3,22 +3,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 90px;
     margin-bottom: 60px;
 }
 
-.h1info{
+.h1info {
     text-align: center;
     margin-top: 20px;
 }
 
-.divBut{
+.h3info {
+    text-align: center;
+}
+
+.divBut {
     display: flex;
 }
 
 .infobox {
     flex: 0 0 calc(50% - 5px);
-    margin-bottom: 15px;
+    margin-bottom: 2vh;
 }
 
 .errorp {
@@ -26,15 +30,17 @@
 }
 
 .card {
-    margin-top: 5vh;
+    margin-top: 1vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8px;
+    padding: 10px;
     border-radius: 27px;
     box-shadow: -20px 20px 1px 1px rgba(0, 0, 0, 0.505);
-
+    width: 282px;
+    height: auto;
 }
+
 
 .profilepic {
     border-radius: 50%;
@@ -59,7 +65,7 @@
     margin-left: 20px;
 }
 
-.butGetCv > a:hover{
+.butGetCv>a:hover {
     color: var(--blue);
 }
 
