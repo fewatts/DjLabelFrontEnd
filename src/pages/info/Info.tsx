@@ -3,8 +3,10 @@ import './Info.css';
 export function Info() {
     return (
         <>
-            <h1 className='h1info'>Dj's TetaSesh:</h1>
-            <h3 className='h3info'>A - Z</h3>
+            <div className="header">
+                <h1 className='h1info'>Dj's TetaSesh:</h1>
+                <h3 className='h3info'>A - Z</h3>
+            </div>
             <main className='info'>
                 <div className='infobox'>
                     <div className='card'>

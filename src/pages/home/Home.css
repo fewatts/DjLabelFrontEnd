@@ -12,14 +12,16 @@
 }
 
 .out {
-    display: flex;
     justify-content: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
 }
 
 .soundcloud {
     margin-top: 10px;
-    width: 80px;
-    height: 48px;
+    width: 100px;
+    height: 43px;
     margin: auto;
 }
 
@@ -27,7 +29,7 @@
     width: 70px;
     height: 65px;
     margin: auto;
-    margin-left: 155px;
+    margin-left: 120px;
 }
 
 main {
@@ -62,6 +64,7 @@ main {
     }
 
     .out {
+        justify-content: center;
         margin: auto;
         display: flex;
         align-items: center;
@@ -69,8 +72,8 @@ main {
 
     .soundcloud {
         margin-top: 10px;
-        width: 94px;
-        height: 45px;
+        width: 100px;
+        height: 43px;
         margin: auto;
     }
 
