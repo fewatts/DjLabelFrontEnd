@@ -43,6 +43,8 @@ main {
     margin-top: 26vh;
     padding: 2rem;
     width: auto;
+    padding: 3rem; 
+    max-width: 600px;
 }
 
 @media screen and (max-width: 1000px) {
