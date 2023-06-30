@@ -14,6 +14,7 @@
 
 .h3info {
     text-align: center;
+    margin: 10px;
 }
 
 .divBut {
@@ -38,10 +39,10 @@
     align-items: center;
     padding: 10px;
     border-radius: 27px;
-    box-shadow: -12px 12px 1px 1px rgba(104, 104, 104, 0.505);
+    box-shadow: -8px 20px 0px 1px rgba(127, 127, 127, 0.829);
     background-color: var(--ghostwhite);
     color: var(--black);
-    width: 311px;
+    width: 318px;
     height: auto;
 }
 
