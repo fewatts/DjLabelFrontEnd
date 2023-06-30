@@ -4,7 +4,7 @@ export function Info() {
     return (
         <>
             <div className="header">
-                <h1 className='h1info'>Dj's TetaSesh:</h1>
+                <h1 className='h1info'>Artistas TetaSesh:</h1>
                 <h3 className='h3info'>A - Z</h3>
             </div>
             <main className='info'>
