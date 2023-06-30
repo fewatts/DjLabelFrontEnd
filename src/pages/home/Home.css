@@ -7,6 +7,31 @@
     height: 100vh;
 }
 
+.abbrt {
+    text-decoration: none;
+}
+
+.out {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.soundcloud {
+    margin-top: 10px;
+    width: 100px;
+    height: 43px;
+    margin: auto;
+}
+
+.youtube {
+    width: 70px;
+    height: 65px;
+    margin: auto;
+    margin-left: 120px;
+}
+
 main {
     display: flex;
     justify-content: space-between;
@@ -36,5 +61,26 @@ main {
 
     .homepic {
         height: auto;
+    }
+
+    .out {
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .soundcloud {
+        margin-top: 10px;
+        width: 100px;
+        height: 43px;
+        margin: auto;
+    }
+
+    .youtube {
+        width: 70px;
+        height: 65px;
+        margin: auto;
+        margin-left: 120px;
     }
 }

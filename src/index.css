@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Crimson+Text&family=Dancing+Script:wght@700&family=Inter:wght@300&family=Lilita+One&family=Merriweather+Sans:wght@300&family=Orbitron&family=Roboto:wght@500&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Dancing+Script:wght@700&family=Inter:wght@300&family=Lilita+One&family=Orbitron&display=swap');
 
 *,
 *::before,
@@ -8,7 +8,11 @@
 
 * {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Chivo Mono', monospace; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Lilita One', cursive; */
+    font-family: 'Orbitron', sans-serif;
 }
 
 html,
@@ -60,9 +64,9 @@ a {
 /* Paletas utilizadas */
 :root {
     --black: #080708;
-    --blue: #3772FF;
-    --redpoppy: #DF2935;
-    --yellow: #FDCA40;
-    --ghostwhite: #f8f8ff;
+    --blue: #8E7BEA;
+    --redpoppy: #B30F1F;
+    --yellow: #9CA6B4;
+    --ghostwhite: #BBCBD3;
     --platinum: #E6E8E6;
 }

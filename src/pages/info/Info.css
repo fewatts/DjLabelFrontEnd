@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 90px;
+    gap: 50px;
     margin-bottom: 60px;
 }
 
@@ -18,6 +18,8 @@
 
 .divBut {
     display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .infobox {
@@ -36,11 +38,12 @@
     align-items: center;
     padding: 10px;
     border-radius: 27px;
-    box-shadow: -20px 20px 1px 1px rgba(0, 0, 0, 0.505);
-    width: 282px;
+    box-shadow: -12px 12px 1px 1px rgba(104, 104, 104, 0.505);
+    background-color: var(--ghostwhite);
+    color: var(--black);
+    width: 311px;
     height: auto;
 }
-
 
 .profilepic {
     border-radius: 50%;
@@ -60,9 +63,8 @@
     background-color: var(--yellow);
     border: solid rgba(0, 0, 0, 0.823);
     border-radius: 17px;
-    padding-left: 10px;
+    margin-left: 10px;
     margin-top: 10px;
-    margin-left: 20px;
 }
 
 .butGetCv>a:hover {
@@ -70,14 +72,18 @@
 }
 
 @media screen and (min-width: 768px) {
-    .cv {
-        padding: 1rem;
+    .info {
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+        margin-left: 12vh;
+        gap: 40px;
     }
 
     .infobox {
         padding: 10px;
         flex-basis: calc(33.33% - 10px);
         margin-top: 1vh;
-        margin-bottom: -5vh;
+        margin-bottom: 5vh;
     }
+
 }
