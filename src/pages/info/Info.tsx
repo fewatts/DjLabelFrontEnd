@@ -8,6 +8,21 @@ export function Info() {
                 <h3 className='h3info'>A - Z</h3>
             </div>
             <main className='info'>
+
+            <div className='infobox'>
+                    <div className='card'>
+                        <img src='https://i1.sndcdn.com/avatars-QVoUubV5OVX1nbiT-yyXy0A-t500x500.jpg' alt="Teta" className='profilepic' />
+                        <h1 className='h1but'>Bem4venturado</h1>
+                        <h3><strong>House</strong></h3>
+                        <div className='divBut'>
+
+                            <button className='butGetCv'><a href='https://soundcloud.com/enzo-beteto-5418300' target='blank'>SoundCloud</a></button>
+                            <button className='butGetCv'><a href='https://www.instagram.com/bem4venturado/' target='blank'>Instagram</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                
                 <div className='infobox'>
                     <div className='card'>
                         <img src='https://i1.sndcdn.com/avatars-XNvFE6BT4CmhlhVY-6qpkHQ-t500x500.jpg' alt="CostaI" className='profilepic' />
@@ -73,18 +88,6 @@ export function Info() {
                     </div>
                 </div>
 
-                <div className='infobox'>
-                    <div className='card'>
-                        <img src='https://i1.sndcdn.com/avatars-QVoUubV5OVX1nbiT-yyXy0A-t500x500.jpg' alt="Teta" className='profilepic' />
-                        <h1 className='h1but'>Bem4venturado</h1>
-                        <h3><strong>House</strong></h3>
-                        <div className='divBut'>
-
-                            <button className='butGetCv'><a href='https://soundcloud.com/enzo-beteto-5418300' target='blank'>SoundCloud</a></button>
-                            <button className='butGetCv'><a href='https://www.instagram.com/bem4venturado/' target='blank'>Instagram</a></button>
-                        </div>
-                    </div>
-                </div>
 
                 <div className='infobox'>
                     <div className='card'>
