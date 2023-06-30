@@ -13,20 +13,22 @@
 
 .out {
     display: flex;
+    align-items: center;
 }
 
 .soundcloud {
-    width: 70px;
-    height: 50px;
+    margin-top: 10px;
+    width: 80px;
+    height: 48px;
     margin: auto;
-    margin-left: 150px;
+    margin-left: 134px;
 }
 
 .youtube {
     width: 70px;
-    height: 70px;
+    height: 65px;
     margin: auto;
-    margin-right: 150px;
+    margin-left: 155px;
 }
 
 main {
@@ -60,17 +62,22 @@ main {
         height: auto;
     }
 
+    .out {
+        display: flex;
+        align-items: center;
+    }
+
     .soundcloud {
-        width: 80px;
+        margin-top: 10px;
+        width: 94px;
         height: 45px;
         margin: auto;
-        margin-left: 25px;
     }
-    
+
     .youtube {
         width: 70px;
-        height: 70px;
+        height: 65px;
         margin: auto;
-        margin-right: 25px;
+        margin-left: 120px;
     }
 }

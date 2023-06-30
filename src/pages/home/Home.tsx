@@ -11,10 +11,9 @@ export function Home() {
                 <h2>Este é o nosso site de divulgação de Conteúdo dos artistas do <strong><abbr title="Label de Artistas Dj's" className='abbrt'>Teta Sesh</abbr></strong>.</h2>
                 <p>Use a barra de navegação para acessar as informações c:</p>
                 <div className='out'>
-                    {/* <a href="https://soundcloud.com/tetasesh" target='blank' ></a> */}
-                    <img src={soundcloud} alt="Soundcloud" className='soundcloud'/>
-                    <img src={youtube} alt="youtube" className='youtube'/>
-                    {/* <a href="https://www.youtube.com/@TetaSesh" target='blank' ></a> */}
+                    <a href="https://soundcloud.com/tetasesh" target='blank' ><img src={soundcloud} alt="Soundcloud" className='soundcloud'/></a>
+            
+                    <a href="https://www.youtube.com/@TetaSesh" target='blank' ><img src={youtube} alt="youtube" className='youtube'/></a>
                 </div>
             </div>
             <div className='homepic'><img src={home} alt="pic home" className='Homepic' /></div>
