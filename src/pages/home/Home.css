@@ -53,6 +53,7 @@ main {
     }
 
     .container {
+        padding: 60px;
         margin-top: 5rem;
     }
 
@@ -66,10 +67,8 @@ main {
     }
 
     .out {
-        justify-content: center;
-        margin: auto;
-        display: flex;
-        align-items: center;
+        margin-right: 19px;
+        margin-top: 40px;
     }
 
     .soundcloud {
