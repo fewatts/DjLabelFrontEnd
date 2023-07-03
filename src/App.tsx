@@ -5,19 +5,26 @@ import { Footer } from './components/footer/Footer'
 import { Home } from './pages/home/Home'
 import { About } from './pages/about/About'
 import { Info } from './pages/info/Info'
+import { Register } from './pages/register/Register'
+import { ToastContainer } from 'react-toastify'
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
 
   return (
-    <BrowserRouter>
-      <NavBar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/info' element={<Info />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <>
+      <ToastContainer />
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/info' element={<Info />} />
+          <Route path='/register' element={<Register />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   )
 }
 
