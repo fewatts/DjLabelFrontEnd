@@ -101,7 +101,7 @@ export function Register() {
                         name="number"
                         onChange={(event: ChangeEvent<HTMLInputElement>) => updateModel(event)}
                     />
-                    <div>
+                    <div className='butscad'>
                         <button disabled={isLoading} className='butsubmit'>
                             {isLoading ? (<span >Loading..</span>) : ('Cadastrar')}
                         </button>

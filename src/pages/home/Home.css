@@ -35,6 +35,7 @@
     background-color: #f8f8ff;
     padding: 9px;
     border-radius: 12px;
+    color: var(--black);
     border: solid;
 }
 
@@ -88,6 +89,6 @@ main {
         width: 66px;
         height: 63px;
         margin: auto;
-        margin-left: 10px;
+        margin-left: 8px;
     }
 }
