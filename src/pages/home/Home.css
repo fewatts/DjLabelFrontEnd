@@ -11,7 +11,13 @@
     text-decoration: none;
 }
 
+.texthome{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
 .out {
+    gap: 50px;
     justify-content: center;
     margin: auto;
     display: flex;
@@ -74,6 +80,7 @@ main {
     }
 
     .out {
+        gap: 0px;
         margin-right: 19px;
         margin-top: 40px;
     }
@@ -90,5 +97,9 @@ main {
         height: 63px;
         margin: auto;
         margin-left: 8px;
+    }
+
+    .texthome{
+        margin-bottom: -15px;
     }
 }
