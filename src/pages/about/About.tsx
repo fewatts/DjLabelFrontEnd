@@ -6,7 +6,7 @@ export function About() {
             <section id='sh'>
                 <h1 id='h1about'>Sobre nós</h1>
                 <p className='para'>
-                    Bem-vindo ao nosso site, onde você encontrará informações sobre o <strong><abbr title="Label de Artistas Dj's">Teta Sesh</abbr></strong>, um grupo de DJs apaixonados pela música eletrônica. Somos um coletivo formado por talentosos artistas que buscam proporcionar experiências sonoras únicas e envolventes para o público.
+                    Bem-vindo ao nosso site, onde você encontrará informações sobre o <strong><abbr title="Label de Artistas Dj's" className='abbrt'>Teta Sesh</abbr></strong>, um grupo de DJs apaixonados pela música eletrônica. Somos um coletivo formado por talentosos artistas que buscam proporcionar experiências sonoras únicas e envolventes para o público.
                     Nossos DJs têm estilos distintos que abrangem diversas vertentes da música eletrônica. Conheça nossos artistas:
                 </p>
                 <br />
@@ -35,7 +35,7 @@ export function About() {
                 </p>
                 <br />
                 <p className='para'>
-                    Acompanhe nosso site para ficar atualizado sobre nossa agenda de eventos, resenhas e novidades. Estamos entusiasmados em compartilhar nossa paixão pela música eletrônica com você e estamos ansiosos para levar a energia do <strong><abbr title="Label de Artistas Dj's">Teta Sesh</abbr></strong> aos seus ouvidos.
+                    Acompanhe nosso site para ficar atualizado sobre nossa agenda de eventos, resenhas e novidades. Estamos entusiasmados em compartilhar nossa paixão pela música eletrônica com você e estamos ansiosos para levar a energia do <strong><abbr title="Label de Artistas Dj's" className='abbrt'>Teta Sesh</abbr></strong> aos seus ouvidos.
                     Junte-se a nós nessa jornada musical e descubra o poder da música eletrônica em todas as suas formas!
                 </p>
             </section>
