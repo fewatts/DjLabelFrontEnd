@@ -1,0 +1,62 @@
+.h3register {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: 19vh;
+}
+
+.input {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.butsubmit {
+    margin-right: 48px;
+    background-color: var(--green);
+    color: var(--ghostwhite);
+    border-radius: 8px;
+    border: solid;
+}
+
+.butcan {
+    background-color: var(--red);
+    color: var(--ghostwhite);
+    border-radius: 8px;
+    border: solid;
+}
+
+.butsubmit:hover {
+    color: var(--yellow);
+}
+
+.butcan:hover {
+    color: var(--yellow);
+}
+
+.notification {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.notification.success {
+    background-color: var(--green);
+    color: var(--ghostwhite);
+}
+
+.notification.error {
+    background-color: var(--red);
+    color: var(--ghostwhite);
+}
+
+.notification.warning {
+    background-color: var(--yellow);
+    color: var(--ghostwhite);
+}

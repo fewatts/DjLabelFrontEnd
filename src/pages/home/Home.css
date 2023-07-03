@@ -29,7 +29,13 @@
     width: 70px;
     height: 61px;
     margin: auto;
-    margin-left: 120px;
+}
+
+.butcad{
+    background-color: #f8f8ff;
+    padding: 9px;
+    border-radius: 12px;
+    border: solid;
 }
 
 main {
@@ -82,6 +88,6 @@ main {
         width: 66px;
         height: 63px;
         margin: auto;
-        margin-left: 50px;
+        margin-left: 10px;
     }
 }
