@@ -45,7 +45,7 @@ export function Register() {
                 navigate("/");
             } catch (error) {
                 setIsLoading(false);
-                toast.error('Usamos hospedagem de backend gratuito, as vezes o sistema hiberna\nTente novamente em 5 minutos...', {
+                toast.error('Usamos hospedagem de backend gratuito, as vezes o sistema hiberna\nGeralmente na segunda vez funciona, \ntenta de novo!', {
                     position: "top-center",
                     autoClose: 4000,
                     hideProgressBar: false,
