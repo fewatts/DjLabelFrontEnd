@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 90px;
+    padding-bottom: 50px;
     height: auto;
     background-color: #f8f8ff29;
     transition: all 0.7s ease-in-out;
@@ -12,7 +12,7 @@
     text-align: end;
     background-color: #f8f8ff29;
     padding-top: 30px;
-    padding-right: 33px;
+    padding-right: 34.5px;
 }
 
 .list-menu{
@@ -24,4 +24,8 @@
 .h1menu{
     padding: 30px;
     color: var(--ghost);
+}
+
+.h1menul{
+    padding-bottom: 60px;
 }

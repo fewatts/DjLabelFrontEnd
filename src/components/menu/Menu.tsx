@@ -13,7 +13,7 @@ export function Menu() {
                         <li><Link to='/' ><h1 className='h1menu'>Home</h1></Link></li>
                         <li><Link to='/info' ><h1 className='h1menu'>Info</h1></Link></li>
                         <li><Link to='/register' ><h1 className='h1menu'>Cadastro</h1></Link></li>
-                        <li><Link to='/about' ><h1 className='h1menu'>Sobre</h1></Link></li>
+                        <li><Link to='/about' ><h1 className='h1menu' id='h1menul'>Sobre</h1></Link></li>
                     </ul>
                 </div>
         </>
