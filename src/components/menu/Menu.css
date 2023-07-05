@@ -1,0 +1,19 @@
+.menu-ham{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 90px;
+    height: auto;
+    background-color: #f8f8ff29;
+}
+
+.list-menu{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.h1menu{
+    padding: 30px;
+    color: var(--ghost);
+}
