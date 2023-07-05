@@ -5,6 +5,14 @@
     padding: 90px;
     height: auto;
     background-color: #f8f8ff29;
+    transition: all 0.7s ease-in-out;
+}
+
+.h5menu{
+    text-align: end;
+    background-color: #f8f8ff29;
+    padding-top: 5px;
+    padding-right: 33px;
 }
 
 .list-menu{
@@ -16,4 +24,5 @@
 .h1menu{
     padding: 30px;
     color: var(--ghost);
+    transition: color 1s ease-in-out;
 }

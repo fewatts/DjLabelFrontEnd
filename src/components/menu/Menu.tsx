@@ -7,6 +7,7 @@ export function Menu() {
 
     return (
         <>
+        <h5 className='h5menu'><Link to='/'>❌</Link></h5>
                 <div className='menu-ham'>
                     <ul className='list-menu'>
                         <li><Link to='/' ><h1 className='h1menu'>Home</h1></Link></li>
