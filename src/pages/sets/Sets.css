@@ -1,0 +1,19 @@
+.set {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    margin: 40px 40px;
+}
+
+.set iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: -20px 20px 0px 0px rgba(22, 22, 22, 0.999);
+}
+
+.h1set {
+    margin: 20px 10px;
+    text-align: center;
+}
