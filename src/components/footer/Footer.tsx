@@ -1,11 +1,9 @@
 import './Footer.css';
-import gitlogo from './../../assets/github.svg'
 
 export function Footer() {
     return (
         <footer>
-            <a href="https://github.com/fewatts/tetaseshinfos" target='blank'><abbr title="repositório no github"><img src={gitlogo} alt="Repositório" className='git' /></abbr></a>
-            <p>© Copyright, F</p>
+            <p>© Copyright <strong><abbr title="Label de Artistas Dj's" className='abbrt'><a href="https://www.instagram.com/tetaseshh/">Teta Sesh</a></abbr></strong></p>
         </footer>
     );
 }

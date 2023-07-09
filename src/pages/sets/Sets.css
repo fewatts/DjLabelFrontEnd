@@ -17,3 +17,14 @@
     margin: 20px 10px;
     text-align: center;
 }
+
+@media screen and (min-width: 1000px){
+    .set iframe{
+        max-width: 70%;
+    }
+
+    .set{
+        justify-items: center;
+        margin-bottom: 50px;
+    }
+}
