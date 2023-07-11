@@ -4,15 +4,15 @@
 }
 
 .homepic {
-    height: 100vh;
+    height: 91.9vh;
 }
 
 .abbrt {
     text-decoration: none;
 }
 
-.texthome {
-    text-align: justify;
+.texthome { 
+    text-align: center;
     margin-bottom: 25px;
 }
 
@@ -22,6 +22,10 @@
     margin: auto;
     display: flex;
     align-items: center;
+}
+
+.hrhome{
+    border-color: black;
 }
 
 .soundcloud {
@@ -79,8 +83,13 @@ main {
         display: block;
     }
 
+    .textos{
+        margin-top: 100px;
+        margin-bottom: 125px;
+    }
+
     .container {
-        padding: 60px;
+        padding: 40px;
         margin-top: 2rem;
     }
 
