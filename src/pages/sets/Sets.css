@@ -4,6 +4,7 @@
     grid-gap: 20px;
     align-items: center;
     margin: 40px 40px;
+    padding: 10px;
 }
 
 .set iframe {
@@ -15,7 +16,8 @@
 
 .h1set {
     margin: 20px 10px;
-    text-align: center;
+    text-align: start;
+    margin-top: 50px;
 }
 
 @media screen and (min-width: 1000px){
@@ -25,12 +27,12 @@
 
     .set{
         justify-items: center;
-        margin-bottom: 50px;
     }
 
     .h1set {
         margin: 20px 10px;
         text-align: start;
         padding-left: 250px;
+        margin-top: 50px;
     }
 }
