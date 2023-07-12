@@ -25,7 +25,7 @@ const artists = [
     {
         name: 'Laomer',
         genre: 'House',
-        profilePic: 'https://i1.sndcdn.com/avatars-mNAxqOghXvLnDEiO-l73tUg-t500x500.jpg',
+        profilePic: 'https://i1.sndcdn.com/avatars-bHWmfg2gk7I4hoO8-p3kk1g-t500x500.jpg',
         soundcloudLink: 'https://soundcloud.com/laomer',
         instagramLink: 'https://www.instagram.com/quedorlaomer/'
     },
