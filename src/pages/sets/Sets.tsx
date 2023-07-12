@@ -13,6 +13,10 @@ const sets = [
         genre: 'House'
     },
     {
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1484503345&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        genre: 'House'
+    },
+    {
         link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1562381971&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
@@ -27,10 +31,6 @@ const sets = [
     {
         link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1476515899&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Phonk'
-    },
-    {
-        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1484503345&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        genre: 'House'
     }
 ]
 
