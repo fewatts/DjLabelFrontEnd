@@ -74,6 +74,10 @@ main {
     text-align: start;
 }
 
+.intropic{
+   display: none;
+}
+
 @media screen and (max-width: 1000px) {
     main {
         display: block;
@@ -124,4 +128,16 @@ main {
     .texthome {
         margin-bottom: -15px;
     }
+
+    .intropic{
+        display: block;
+        background-color: white;
+        text-align: center;
+        color: white;
+        padding: 2vh;
+        position: sticky;
+        height: max-content;
+        border-radius: 30px 30px 0px 0px;
+    }
+
 }
