@@ -1,5 +1,4 @@
 import './Home.css';
-import home from './../../../src/assets/home.jpg';
 import homeMobile from './../../../src/assets/home-mobile.jpg';
 import soundcloud from './../../assets/soundcloud.svg';
 import youtube from './../../assets/youtube.svg';
