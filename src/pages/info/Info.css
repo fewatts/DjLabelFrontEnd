@@ -61,7 +61,7 @@
 }
 
 .butGetCv {
-    background-color: var(--yellow);
+    background-color: var(--grey);
     border: solid rgba(0, 0, 0, 0.823);
     border-radius: 17px;
     margin-left: 10px;
@@ -70,7 +70,7 @@
 }
 
 .butGetCv>a:hover {
-    color: var(--blue);
+    color: var(--purple);
 }
 
 @media screen and (min-width: 768px) {

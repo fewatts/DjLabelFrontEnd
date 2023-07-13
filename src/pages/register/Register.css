@@ -33,11 +33,11 @@
 }
 
 .butsubmit:hover {
-    color: var(--yellow);
+    color: var(--grey);
 }
 
 .butcan:hover {
-    color: var(--yellow);
+    color: var(--grey);
 }
 
 .butscad {

@@ -3,7 +3,7 @@
 }
 
 .logo {
-    height: 40px;
+    height: 45px;
 }
 
 #burguer{
@@ -12,11 +12,10 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 8vh;
-    padding: 0rem 2rem;
-    background-color: var(--blue);
+    height: 9vh;
+    padding: 0rem 2.5rem;
+    background-color: var(--purple);
 }
 
 #itens2 {
@@ -27,26 +26,17 @@
 }
 
 a:hover {
-    color: var(--yellow);
+    color: var(--grey);
 }
 
 @media screen and (max-width: 767px) {
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 8vh;
-        padding: 0rem 2rem;
-        background-color: var(--blue);
-    }
-
     #burguer {
         display: flex;
         cursor: pointer;
     }
 
     #burguer:hover {
-        color: var(--yellow);
+        color: var(--grey);
     }
 
     #itens2 {
