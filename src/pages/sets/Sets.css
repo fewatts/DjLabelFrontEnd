@@ -52,7 +52,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 360px) {
     .set {
         justify-items: center;
         margin: 23px 10px;
