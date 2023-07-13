@@ -1,11 +1,8 @@
 .menu-ham{
     display: flex;
     justify-content: center;
-    margin: auto;
-    padding-bottom: 100px;
-    height: auto;
+    padding-bottom: 60px;
     background-color: #f8f8ff29;
-    transition: all 0.7s ease-in-out;
 }
 
 .h5menu{
@@ -24,8 +21,4 @@
 .h1menu{
     margin: 55px;
     color: var(--ghost);
-}
-
-.h1menul{
-    padding-bottom: 60px;
 }
