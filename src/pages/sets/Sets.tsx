@@ -4,6 +4,14 @@ const tracks = [
     {
         link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1481703253&color=%238e7bea&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'DeepTech'
+    },
+    {
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1406623036&color=%238e7bea&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        genre: 'Phonk'
+    },
+    {
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1533530380&color=%238e7bea&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        genre: 'Phonk'
     }
 ]
 
