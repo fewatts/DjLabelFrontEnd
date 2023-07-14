@@ -17,6 +17,10 @@ const sets = [
         genre: 'House'
     },
     {
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1472752489&color=%238e7bea&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        genre: 'House'
+    },
+    {
         link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1562411989&color=%238e7bea&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
