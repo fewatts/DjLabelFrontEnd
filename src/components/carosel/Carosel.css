@@ -1,0 +1,26 @@
+.carosel-img {
+    width: 330px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.carosel-container {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel {
+    width: 600px;
+    height: 590px;
+    margin: 0 auto;
+}
+
+.alice-carousel__dots {
+    margin: 0px 0px 0px;
+    padding: 4px;
+    list-style: none;
+    text-align: center;
+}

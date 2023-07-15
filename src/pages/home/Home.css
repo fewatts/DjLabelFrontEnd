@@ -3,6 +3,10 @@
     height: 100%;
 }
 
+.carhome{
+    background-color: var(--purple);
+}
+
 .homepic {
     height: 105vh;
 }
@@ -66,6 +70,15 @@ main {
     position: sticky;
     height: max-content;
     box-shadow: 0px 20px 0px 0px rgba(22, 22, 22, 0.999);
+}
+
+.splithome2 {
+    background-color: var(--purple);
+    text-align: center;
+    color: var(--ghostwhite);
+    padding: 2vh;
+    position: sticky;
+    height: max-content;
 }
 
 .h1ouca {

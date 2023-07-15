@@ -3,6 +3,7 @@ import homeMobile from './../../../src/assets/home-mobile.jpg';
 import soundcloud from './../../assets/soundcloud.svg';
 import youtube from './../../assets/youtube.svg';
 import { Sets } from '../sets/Sets';
+import { Carrossel } from '../../components/carosel/Carosel';
 
 export function Home() {
 
@@ -22,6 +23,16 @@ export function Home() {
                 <div className='intropic'>x</div>
                 <div className='homepic'><a href="https://www.freepik.com/free-vector/dj-tools-equipment-isometric-set-with-audio-mixer-headphone-vinyl-record-player-speakers-instruments-isolated-vector-illustration_26765259.htm#page=2&query=dj&position=12&from_view=search&track=sph"><abbr title="Image by macrovector"><img src={homeMobile} alt="pic home" className='Homepic' /></abbr></a></div>
             </main>
+            <div className='splithome2'>
+                <h1 className='h1ouca'>Artistas:</h1>
+            </div>
+            <hr />
+            <section className='carhome'>
+                <div className='carrossel-container'>
+                    <Carrossel />
+                </div>
+                <hr />
+            </section>
             <div className='splithome'>
                 <h1 className='h1ouca'>Ouça:</h1>
             </div>
