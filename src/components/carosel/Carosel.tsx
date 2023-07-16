@@ -6,25 +6,36 @@ import bemaventurado from './../../assets/artists/bemaventurado.jpeg';
 import costai from './../../assets/artists/costai.jpeg';
 import spinnenkopf from './../../assets/artists/spinnenkopf.jpeg';
 
+// import pvtonis2 from './../../assets/events/pvtonis.jpeg';
+
 const pics = [
     {
-        pic: bemaventurado,
+        name: "Bem4venturado",
+        genre: "House",
+        pic: bemaventurado
     },
     {
-        pic: costai,
+        name: "Costai",
+        genre: "DeepTech",
+        pic: costai
     },
     {
-        pic: spinnenkopf,
-    },
+        name: "Spinnenkopf",
+        genre: "Techno",
+        pic: spinnenkopf
+    }
 ];
 
 export const Carrossel = () => (
     <AliceCarousel
         mouseTracking
         items={pics.map((pic, index) => (
-            <div key={index} className="carosel-container">
-                <img src={pic.pic} alt={`Imagem ${index + 1}`} className="carosel-img" />
-            </div>
+            <>
+                <h3 className='h3car'><strong>{pic.name} - {pic.genre}</strong></h3>
+                <div key={index} className="carosel-container">
+                    <img src={pic.pic} alt={`Imagem ${index + 1}`} className="carosel-img" />
+                </div>
+            </>
         ))}
         infinite
         animationDuration={8500}
