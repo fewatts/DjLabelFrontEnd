@@ -4,40 +4,41 @@ import './Carosel.css';
 
 import bemaventurado from './../../assets/artists/bemaventurado.jpeg';
 import costai from './../../assets/artists/costai.jpeg';
+import dabague from './../../assets/artists/dabague.jpeg';
 import laomer from'./../../assets/artists/laomer.jpeg';
-import oghthraxx from './../../assets/artists/oghthraxx.jpg';
+import ogthraxx from './../../assets/artists/ogthraxx.jpeg'
 import spinnenkopf from './../../assets/artists/spinnenkopf.jpeg';
 import zanqueta from './../../assets/artists/zanqueta.jpeg';
 
 const pics = [
     {
         name: "Bem4venturado",
-        genre: "House",
         pic: bemaventurado
     },
     {
         name: "Costai",
-        genre: "DeepTech",
+  
         pic: costai
     },
     {
+        name: "Dabague",
+
+        pic: dabague
+    },
+    {
         name: "Laomer",
-        genre: "House",
         pic: laomer
     },
     {
-        name: "Oghthraxx",
-        genre: "Phonk & Techno",
-        pic: oghthraxx
+        name: "Ogthraxx",
+        pic: ogthraxx
     },
     {
         name: "Spinnenkopf",
-        genre: "Techno",
         pic: spinnenkopf
     },
     {
         name: "Zanqueta",
-        genre: "PsyTechno",
         pic: zanqueta 
     }
 ];
@@ -47,7 +48,7 @@ export const Carrossel = () => (
         mouseTracking
         items={pics.map((pic, index) => (
             <>
-                <h3 className='h3car'><strong>{pic.name} - {pic.genre}</strong></h3>
+                <h3 className='h3car'><strong>{pic.name}</strong></h3>
                 <div key={index} className="carosel-container">
                     <img src={pic.pic} alt={`Imagem ${index + 1}`} className="carosel-img" />
                 </div>
