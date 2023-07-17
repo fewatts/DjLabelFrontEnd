@@ -4,9 +4,10 @@ import './Carosel.css';
 
 import bemaventurado from './../../assets/artists/bemaventurado.jpeg';
 import costai from './../../assets/artists/costai.jpeg';
+import laomer from'./../../assets/artists/laomer.jpeg';
+import oghthraxx from './../../assets/artists/oghthraxx.jpg';
 import spinnenkopf from './../../assets/artists/spinnenkopf.jpeg';
-
-// import pvtonis2 from './../../assets/events/pvtonis.jpeg';
+import zanqueta from './../../assets/artists/zanqueta.jpeg';
 
 const pics = [
     {
@@ -20,9 +21,24 @@ const pics = [
         pic: costai
     },
     {
+        name: "Laomer",
+        genre: "House",
+        pic: laomer
+    },
+    {
+        name: "Oghthraxx",
+        genre: "Phonk & Techno",
+        pic: oghthraxx
+    },
+    {
         name: "Spinnenkopf",
         genre: "Techno",
         pic: spinnenkopf
+    },
+    {
+        name: "Zanqueta",
+        genre: "PsyTechno",
+        pic: zanqueta 
     }
 ];
 
@@ -37,11 +53,11 @@ export const Carrossel = () => (
                 </div>
             </>
         ))}
-        infinite
-        animationDuration={8500}
-        disableButtonsControls
+        infinite={true}
+        animationDuration={3000}
+        disableButtonsControls={true}
         controlsStrategy="responsive"
         autoPlayStrategy="action"
-        autoPlay
+        autoPlay={true}
     />
 );
