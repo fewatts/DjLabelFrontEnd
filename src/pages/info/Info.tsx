@@ -30,7 +30,7 @@ const artists = [
         instagramLink: 'https://www.instagram.com/quedorlaomer/'
     },
     {
-        name: 'Oghthraxx',
+        name: 'Ogthraxx',
         genre: 'Techno & Phonk',
         profilePic: 'https://i1.sndcdn.com/avatars-PLUYBW7LFwGAn2vR-UOrM1A-t500x500.jpg',
         soundcloudLink: 'https://soundcloud.com/jovemthraxx',
