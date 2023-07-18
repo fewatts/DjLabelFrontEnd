@@ -5,7 +5,7 @@ import './Carosel.css';
 import bemaventurado from './../../assets/artists/bemaventurado.jpeg';
 import costai from './../../assets/artists/costai.jpeg';
 import dabague from './../../assets/artists/dabague.jpeg';
-import laomer from'./../../assets/artists/laomer.jpeg';
+import laomer from './../../assets/artists/laomer.jpeg';
 import ogthraxx from './../../assets/artists/ogthraxx.jpeg'
 import spinnenkopf from './../../assets/artists/spinnenkopf.jpeg';
 import zanqueta from './../../assets/artists/zanqueta.jpeg';
@@ -17,7 +17,7 @@ const pics = [
     },
     {
         name: "Costai",
-  
+
         pic: costai
     },
     {
@@ -39,7 +39,7 @@ const pics = [
     },
     {
         name: "Zanqueta",
-        pic: zanqueta 
+        pic: zanqueta
     }
 ];
 
@@ -59,6 +59,5 @@ export const Carrossel = () => (
         disableButtonsControls={true}
         controlsStrategy="responsive"
         autoPlayStrategy="action"
-        autoPlay={true}
-    />
+        autoPlay={true} />
 );
