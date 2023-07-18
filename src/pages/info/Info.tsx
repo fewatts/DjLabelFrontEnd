@@ -55,13 +55,13 @@ const artists = [
 export function Info() {
     return (
         <>
-            <div className="header">
+            <div className='heading-container'>
                 <h1 className='h1info'>Artistas TetaSesh:</h1>
                 <h3 className='h3info'>A - Z</h3>
             </div>
             <main className='info'>
-
                 {artists.map(artist => (
+
                     <div className='infobox'>
                         <div className='card'>
                             <img src={artist.profilePic} alt={artist.name} className='profilepic' />
@@ -73,8 +73,8 @@ export function Info() {
                             </div>
                         </div>
                     </div>
-                ))}
 
+                ))}
             </main>
         </>
     );

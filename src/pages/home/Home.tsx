@@ -24,7 +24,7 @@ export function Home() {
                 <div className='homepic'><a href="https://www.freepik.com/free-vector/dj-tools-equipment-isometric-set-with-audio-mixer-headphone-vinyl-record-player-speakers-instruments-isolated-vector-illustration_26765259.htm#page=2&query=dj&position=12&from_view=search&track=sph"><abbr title="Image by macrovector"><img src={homeMobile} alt="pic home" className='Homepic' /></abbr></a></div>
             </main>
             <div className='splithome2'>
-                <h1 className='h1ouca'>Artistas:</h1>
+                <h1 className='h1ouca'>Artistas (A-Z):</h1>
             </div>
             <hr />
             <section className='carhome'>
