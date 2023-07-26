@@ -2,13 +2,6 @@ import './Info.css';
 
 const artists = [
     {
-        name: 'Bem4venturado',
-        genre: 'House',
-        profilePic: 'https://i1.sndcdn.com/avatars-QVoUubV5OVX1nbiT-yyXy0A-t500x500.jpg',
-        soundcloudLink: 'https://soundcloud.com/enzo-beteto-5418300',
-        instagramLink: 'https://www.instagram.com/bem4venturado/'
-    },
-    {
         name: 'CostaI',
         genre: 'DeepTech',
         profilePic: 'https://i1.sndcdn.com/avatars-XNvFE6BT4CmhlhVY-6qpkHQ-t500x500.jpg',
@@ -25,7 +18,7 @@ const artists = [
     {
         name: 'Laomer',
         genre: 'House',
-        profilePic: 'https://i1.sndcdn.com/avatars-bHWmfg2gk7I4hoO8-p3kk1g-t500x500.jpg',
+        profilePic: 'https://i1.sndcdn.com/avatars-bEpoiSiYgdL3svCF-68tORg-t500x500.jpg',
         soundcloudLink: 'https://soundcloud.com/laomer',
         instagramLink: 'https://www.instagram.com/quedorlaomer/'
     },

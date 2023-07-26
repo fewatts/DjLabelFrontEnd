@@ -13,13 +13,13 @@ export function About() {
                 <h3 id='h1about'>A - Z</h3>
                 <ul>
                     <li>
-                        <strong>Bemaventurado</strong> e <strong>Laomer</strong>: Tocam <strong>house</strong>.
-                    </li>
-                    <li>
                         <strong>Costai</strong>: Toca <strong>deephouse</strong>.
                     </li>
                     <li>
                         <strong>Dabague</strong> e <strong>Zanqueta</strong>: Tocam <strong>psytrance</strong>, com preferência de Zanqueta pelo <strong>psytechno</strong> e Dabague pelo <strong>hitech</strong> e <strong>fullon</strong>.
+                    </li>
+                    <li>
+                        <strong>Laomer</strong>: Toca <strong>house</strong>.
                     </li>
                     <li>
                         <strong>Oghthraxx</strong>: Toca <strong>phonk</strong> e <strong>techno</strong>.
