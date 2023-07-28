@@ -4,7 +4,7 @@
 }
 
 .carhome{
-    background-color: var(--purple);
+    background-color: var(--charmoisee);
 }
 
 .homepic {
@@ -63,7 +63,7 @@
 }
 
 .splithome {
-    background-color: var(--purple);
+    background-color: var(--charmoisee);
     text-align: center;
     color: var(--ghostwhite);
     padding: 2vh;
@@ -73,7 +73,7 @@
 }
 
 .splithome2 {
-    background-color: var(--purple);
+    background-color: var(--charmoisee);
     text-align: center;
     color: var(--ghostwhite);
     padding: 2vh;
