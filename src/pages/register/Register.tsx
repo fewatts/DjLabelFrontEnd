@@ -77,7 +77,7 @@ export function Register() {
     }
 
     return (
-        <>
+        <main className='main-register'>
             <h2 className="h3register">Cadastrar</h2>
             <div className="form-container">
                 <form onSubmit={onSubmit} className="form">
@@ -90,17 +90,15 @@ export function Register() {
                         value={usuario.name}
                         onChange={updateModel}
                     />
-
                     <h3>E-mail:</h3>
                     <input
-                        placeholder="seuemail@example.com"
+                        placeholder="seuemail@exemplo.com"
                         className="input"
                         type="email"
                         name="email"
                         value={usuario.email}
                         onChange={updateModel}
                     />
-
                     <h3>Número:</h3>
                     <input
                         placeholder="(xx) xxxxxxxxx"
@@ -120,7 +118,7 @@ export function Register() {
                     </div>
                 </form>
             </div>
-        </>
+            <br />
+        </main>
     );
 }
-``

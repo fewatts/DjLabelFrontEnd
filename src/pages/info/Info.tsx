@@ -48,10 +48,10 @@ const artists = [
 export function Info() {
     return (
         <>
-            <div className='heading-container'>
+            <header className='heading-container'>
                 <h1 className='h1info'>Artistas TetaSesh:</h1>
                 <h3 className='h3info'>A - Z</h3>
-            </div>
+            </header>
             <main className='info'>
                 {artists.map(artist => (
 

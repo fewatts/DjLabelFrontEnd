@@ -3,6 +3,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     align-items: center;
+    justify-content: center;
     margin: 23px 40px;
     padding: 20px;
 }
@@ -29,7 +30,7 @@
 
 @media screen and (min-width: 1000px) {
     .set iframe {
-        max-width: 70%;
+        max-width: 69%;
     }
 
     .set {

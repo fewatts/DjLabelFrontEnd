@@ -29,10 +29,6 @@ const sets = [
         genre: 'Techno'
     },
     {
-        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1562381971&color=%238e7bea&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        genre: 'Techno'
-    },
-    {
         link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1564427800&color=%238e7bea&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
@@ -44,12 +40,12 @@ const sets = [
 
 export function Sets() {
     return (
-        <>
+        <main>
             <h1 className='h1set'>Tracks:</h1>
             <div className='card-container'>
                 {tracks.map(track => (
                     <>
-                        <h4 className='musicgenre'>-{track.genre}-</h4>
+                        <h4 className='musicgenre'>{track.genre}</h4>
                         <div className='set'>
                             <iframe src={track.link}></iframe>
                         </div>
@@ -60,7 +56,7 @@ export function Sets() {
             <div className='card-container'>
                 {sets.map(set => (
                     <>
-                        <h4 className='musicgenre'>-{set.genre}-</h4>
+                        <h4 className='musicgenre'>{set.genre}</h4>
                         <div className='set'>
                             <iframe src={set.link}></iframe>
                         </div>
@@ -68,7 +64,7 @@ export function Sets() {
                 ))}
             </div>
             <br />
-        </>
+        </main>
     );
 }
 
