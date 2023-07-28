@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     padding-bottom: 60px;
-    background-color: #f8f8ff29;
+    background-color: rgba(0, 0, 0, 0.074);
 }
 
 .h5menu{
     text-align: end;
-    background-color: #f8f8ff29;
+    background-color: rgba(0, 0, 0, 0.074);
     padding-top: 30px;
     padding-right: 34.5px;
 }

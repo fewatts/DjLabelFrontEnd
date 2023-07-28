@@ -63,12 +63,10 @@ a {
 
 /* Paletas utilizadas */
 :root {
-    --black: #080708;
-    --purple: #8E7BEA;
-    --red: #A30015;
-    --green: #00120B;
+    --black: #000000d4;
+    --purple: #9D7455;
+    --red: #3D0814;
     --grey: #9CA6B4;
-    --ghostwhite: #f8f8ff;
-    --platinum: #E6E8E6;
-    --yellow: #E9C21F;
+    --blue: #1F5673;
+    --ghostwhite: #FDFFFA;
 }

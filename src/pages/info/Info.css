@@ -46,7 +46,7 @@
     padding: 10px;
     border-radius: 27px;
     border: solid black;
-    box-shadow: -20px 20px 0px 0px rgba(127, 127, 127, 0.999);
+    box-shadow: -20px 20px 0px 0px rgba(22, 22, 22, 0.999);
     background-color: var(--ghostwhite);
     color: var(--black);
     width: 300px;
@@ -77,7 +77,7 @@
 }
 
 .info .butGetCv>a:hover {
-    color: var(--purple);
+    color: var(--blue);
 }
 
 @media screen and (min-width: 768px) {
