@@ -11,7 +11,6 @@ export function Menu() {
                 <div className='menu-ham'>
                     <ul className='list-menu'>
                         <li><Link to='/' ><h1 className='h1menu'>Home</h1></Link></li>
-                        <li><Link to='/ouca' ><h1 className='h1menu'>Ouça</h1></Link></li>
                         <li><Link to='/info' ><h1 className='h1menu'>Sociais</h1></Link></li>
                         <li><Link to='/register' ><h1 className='h1menu'>Cadastro</h1></Link></li>
                         <li><Link to='/about' ><h1 className='h1menu' id='h1menul'>Sobre</h1></Link></li>

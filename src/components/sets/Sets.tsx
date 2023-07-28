@@ -40,7 +40,7 @@ const sets = [
 
 export function Sets() {
     return (
-        <main>
+        <section className='section-sets'>
             <h1 className='h1set'>Tracks:</h1>
             <div className='card-container'>
                 {tracks.map(track => (
@@ -64,7 +64,7 @@ export function Sets() {
                 ))}
             </div>
             <br />
-        </main>
+        </section>
     );
 }
 

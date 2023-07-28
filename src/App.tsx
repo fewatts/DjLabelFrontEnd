@@ -9,7 +9,7 @@ import { Register } from './pages/register/Register'
 import { ToastContainer } from 'react-toastify'
 import "react-toastify/dist/ReactToastify.css";
 import { Menu } from './components/menu/Menu'
-import { Sets } from './pages/sets/Sets'
+import { Sets } from './components/sets/Sets'
 
 function App() {
 
