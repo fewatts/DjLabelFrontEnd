@@ -33,7 +33,7 @@ export function Register() {
                 console.log(usuario);
                 await cadastrarUsuario('/customer/register', usuario, setUsuario);
                 toast.success('Usuário cadastrado!', {
-                    position: 'top-center',
+                    position: 'bottom-center',
                     autoClose: 4000,
                     hideProgressBar: false,
                     closeOnClick: true,
@@ -48,7 +48,7 @@ export function Register() {
                 toast.error(
                     'Usamos hospedagem de backend gratuito, as vezes o sistema hiberna\nGeralmente na segunda vez funciona, \ntenta de novo!',
                     {
-                        position: 'top-center',
+                        position: 'bottom-center',
                         autoClose: 4000,
                         hideProgressBar: false,
                         closeOnClick: true,
@@ -63,7 +63,7 @@ export function Register() {
             toast.warning(
                 'Preencheu tudo certo?\nColoque seu nome, um email válido\nE um número válido...',
                 {
-                    position: 'top-center',
+                    position: 'bottom-center',
                     autoClose: 4000,
                     hideProgressBar: false,
                     closeOnClick: true,
