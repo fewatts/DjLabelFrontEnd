@@ -2,6 +2,7 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import './Carosel.css';
 
+import tetasesh from './../../assets/logo-nav.jpeg';
 import costai from './../../assets/artists/costai.jpeg';
 import dabague from './../../assets/artists/dabague.jpeg';
 import laomer from './../../assets/artists/laomer.jpeg';
@@ -11,13 +12,15 @@ import zanqueta from './../../assets/artists/zanqueta.jpeg';
 
 const pics = [
     {
+        name: "TetaSesh",
+        pic: tetasesh
+    },
+    {
         name: "Costai",
-
         pic: costai
     },
     {
         name: "Dabague",
-
         pic: dabague
     },
     {

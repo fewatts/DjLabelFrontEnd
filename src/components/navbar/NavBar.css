@@ -1,9 +1,13 @@
+main{
+    padding-top: 60px;
+}
+
 .logo-container {
     flex: 1;
 }
 
 .logo {
-    height: 45px;
+    height: 49px;
 }
 
 #burguer{
@@ -11,7 +15,12 @@
 }
 
 .navbar {
+    z-index: 9999;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     align-items: center;
     height: 9vh;
     padding: 0rem 2.5rem;
