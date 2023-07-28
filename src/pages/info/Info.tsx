@@ -47,28 +47,27 @@ const artists = [
 
 export function Info() {
     return (
-        <>
-            <header className='heading-container'>
-                <h1 className='h1info'>Artistas TetaSesh:</h1>
-                <h3 className='h3info'>A - Z</h3>
-            </header>
-            <main className='info'>
-                {artists.map(artist => (
-
-                    <div className='infobox'>
-                        <div className='card'>
-                            <img src={artist.profilePic} alt={artist.name} className='profilepic' />
-                            <h2 className='h1but'>{artist.name}</h2>
-                            <h3><strong>{artist.genre}</strong></h3>
-                            <div className='divBut'>
-                                <button className='butGetCv'><a href={artist.soundcloudLink} target='blank'>SoundCloud</a></button>
-                                <button className='butGetCv'><a href={artist.instagramLink} target='blank'>Instagram</a></button>
+        <main>
+            
+                <header className='heading-container'>
+                    <h1 className='h1info'>Artistas TetaSesh:</h1>
+                    <h3 className='h3info'>A - Z</h3>
+                </header>
+                <section className='info'>
+                    {artists.map(artist => (
+                        <div className='infobox'>
+                            <div className='card'>
+                                <img src={artist.profilePic} alt={artist.name} className='profilepic' />
+                                <h2 className='h1but'>{artist.name}</h2>
+                                <h3><strong>{artist.genre}</strong></h3>
+                                <div className='divBut'>
+                                    <button className='butGetCv'><a href={artist.soundcloudLink} target='blank'>SoundCloud</a></button>
+                                    <button className='butGetCv'><a href={artist.instagramLink} target='blank'>Instagram</a></button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                ))}
-            </main>
-        </>
+                    ))}
+                </section>
+        </main>
     );
 }
