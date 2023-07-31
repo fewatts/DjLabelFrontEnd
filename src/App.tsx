@@ -10,7 +10,7 @@ import { ToastContainer } from 'react-toastify'
 import "react-toastify/dist/ReactToastify.css";
 import { Menu } from './components/menu/Menu'
 import { Sets } from './components/sets/Sets'
-import { Error } from './pages/404/error'
+import { Error } from './pages/error/Error'
 
 function App() {
 
