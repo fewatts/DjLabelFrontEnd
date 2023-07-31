@@ -10,6 +10,7 @@ import { ToastContainer } from 'react-toastify'
 import "react-toastify/dist/ReactToastify.css";
 import { Menu } from './components/menu/Menu'
 import { Sets } from './components/sets/Sets'
+import { Error } from './pages/404/error'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/menu' element={<Menu />} />
           <Route path='/register' element={<Register />} />
           <Route path='/ouca' element={<Sets />} />
+          <Route path='/*' element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>
