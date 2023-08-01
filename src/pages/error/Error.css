@@ -22,7 +22,7 @@
 
 .error-button {
     position: absolute;
-    top: 76%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
@@ -33,4 +33,10 @@
     font-size: 16px;
     text-align: center;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .tittle-error{
+        font-size: 25px;
+    }
 }

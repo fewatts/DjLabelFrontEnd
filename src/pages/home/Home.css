@@ -41,14 +41,6 @@
     height: 61px;
 }
 
-.butcad {
-    background-color: #f8f8ff;
-    padding: 9px;
-    border-radius: 12px;
-    color: var(--black);
-    border: solid;
-}
-
 .section-main {
     display: flex;
     justify-content: space-between;
