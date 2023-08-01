@@ -3,12 +3,12 @@
     align-items: center;
 }
 
-.h3register {
+.tittle-register {
     text-align: center;
     margin-top: 80px;
 }
 
-.form-container {
+.form-register {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
     padding: 5px;
 }
 
-.butsubmit {
+.register-submit {
     cursor: pointer;
     margin-right: 48px;
     background-color: var(--green);
@@ -30,7 +30,7 @@
     border: solid;
 }
 
-.butcan {
+.register-cancel {
     cursor: pointer;
     background-color: var(--red);
     color: var(--ghostwhite);
@@ -39,15 +39,15 @@
 
 }
 
-.butsubmit:hover {
+.register-submit:hover {
     color: var(--grey);
 }
 
-.butcan:hover {
+.register-cancel:hover {
     color: var(--grey);
 }
 
-.butscad {
+.register-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,11 +55,11 @@
 }
 
 @media (max-width: 768px) {
-    .form-container {
+    .form-register {
         flex-direction: column;
     }
 
-    .butscad {
+    .register-button {
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
@@ -67,7 +67,7 @@
         margin-top: 10px;
     }
 
-    .butsubmit {
+    .register-submit {
         margin-right: 0;
     }
 }
