@@ -77,47 +77,53 @@ export function Register() {
     }
 
     return (
-        <main className='main-register'>
-            <h2 className="h3register">Cadastrar</h2>
-            <div className="form-container">
+        <main className="main-register">
+            <h2 className="tittle-register">Cadastrar</h2>
+            <section className="form-register">
                 <form onSubmit={onSubmit} className="form">
-                    <h3>Nome:</h3>
-                    <input
-                        placeholder="Nome"
-                        className="input"
-                        type="text"
-                        name="name"
-                        value={usuario.name}
-                        onChange={updateModel}
-                    />
-                    <h3>E-mail:</h3>
-                    <input
-                        placeholder="seuemail@exemplo.com"
-                        className="input"
-                        type="email"
-                        name="email"
-                        value={usuario.email}
-                        onChange={updateModel}
-                    />
-                    <h3>Número:</h3>
-                    <input
-                        placeholder="(xx) xxxxxxxxx"
-                        className="input"
-                        type="text"
-                        name="number"
-                        value={usuario.number}
-                        onChange={updateModel}
-                    />
-                    <div className="butscad">
-                        <button disabled={isLoading} className="butsubmit">
+                    <label>
+                        <h3>Nome:</h3>
+                        <input
+                            placeholder="Nome"
+                            className="input"
+                            type="text"
+                            name="name"
+                            value={usuario.name}
+                            onChange={updateModel}
+                        />
+                    </label>
+                    <label>
+                        <h3>E-mail:</h3>
+                        <input
+                            placeholder="seuemail@exemplo.com"
+                            className="input"
+                            type="email"
+                            name="email"
+                            value={usuario.email}
+                            onChange={updateModel}
+                        />
+                    </label>
+                    <label>
+                        <h3>Número:</h3>
+                        <input
+                            placeholder="(xx) xxxxxxxxx"
+                            className="input"
+                            type="text"
+                            name="number"
+                            value={usuario.number}
+                            onChange={updateModel}
+                        />
+                    </label>
+                    <div className="register-button">
+                        <button disabled={isLoading} className="register-submit">
                             {isLoading ? <span>Loading..</span> : 'Cadastrar'}
                         </button>
                         <Link to="/">
-                            <button className="butcan">Cancelar</button>
+                            <button className="register-cancel">Cancelar</button>
                         </Link>
                     </div>
                 </form>
-            </div>
+            </section>
             <br />
         </main>
     );

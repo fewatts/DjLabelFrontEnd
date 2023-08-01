@@ -1,4 +1,4 @@
-.about {
+.main-about {
     margin: auto;
     padding: 5rem 2rem;
     display: block;
@@ -9,22 +9,22 @@
     box-shadow: 0px 12px 8px 4px rgba(104, 104, 104, 0.505);
 }
 
-#sh {
+#article-about {
     padding: 8px;
     text-align: justify;
 }
 
-.para {
+.paragrafh-about {
     text-indent: 30px;
 }
 
-#h1about {
+#tittle-about {
     text-align: left;
     margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {
-    .about {
+    .main-about {
         padding: 15rem 5rem;
     }
 }

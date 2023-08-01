@@ -48,26 +48,26 @@ const artists = [
 export function Info() {
     return (
         <main>
-            
-                <header className='heading-container'>
-                    <h1 className='h1info'>Artistas TetaSesh:</h1>
-                    <h3 className='h3info'>A - Z</h3>
-                </header>
-                <section className='info'>
-                    {artists.map(artist => (
-                        <div className='infobox'>
-                            <div className='card'>
-                                <img src={artist.profilePic} alt={artist.name} className='profilepic' />
-                                <h2 className='h1but'>{artist.name}</h2>
-                                <h3><strong>{artist.genre}</strong></h3>
-                                <div className='divBut'>
-                                    <button className='butGetCv'><a href={artist.soundcloudLink} target='blank'>SoundCloud</a></button>
-                                    <button className='butGetCv'><a href={artist.instagramLink} target='blank'>Instagram</a></button>
-                                </div>
+            <header className='info-header'>
+                <h1 className='info-tittle-1'>Artistas TetaSesh:</h1>
+                <h3 className='info-tittle-2'>A - Z</h3>
+            </header>
+            <section className='info-section'>
+                {artists.map(artist => (
+                    <figure className='info-card'>
+                        <div className='card'>
+                            <img src={artist.profilePic} alt={artist.name} className='profilepic' />
+                            <h2 className='info-tittle-3'>{artist.name}</h2>
+                            <h3><strong>{artist.genre}</strong></h3>
+                            <div className='info-buttons'>
+                                <button className='butGetCv'><a href={artist.soundcloudLink} target='_blank'>SoundCloud</a></button>
+                                <button className='butGetCv'><a href={artist.instagramLink} target='_blank'>Instagram</a></button>
                             </div>
-                        </div>
-                    ))}
-                </section>
+                        </div>  
+                    </figure>
+                ))}
+            </section>
         </main>
+
     );
 }

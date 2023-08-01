@@ -4,25 +4,23 @@ import './NavBar.css';
 
 export function NavBar() {
     return (
-        <nav className='navbar'>
-            <div className='logo-container'>
-                <Link to='/'><img src={logo} alt="logo" className='logo' /></Link>
-            </div>
-
-            <div id='itens'>
-                <ul id='itens2'>
+        <header>
+            <nav className='navbar'>
+                <picture className='logo-navbar'>
+                    <Link to='/'><img src={logo} alt="logo" className='logo' /></Link>
+                </picture>
+                <ul id='nav-links'>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/info'>Sociais</Link></li>
                     <li><Link to='/register'>Cadastro</Link></li>
                     <li><Link to='/about'>Sobre</Link></li>
                 </ul>
-            </div>
-
-            <Link to='/menu'>
-                <span id='burguer' className="material-symbols-outlined">
-                    menu
-                </span>
-            </Link>
-        </nav>
+                <Link to='/menu'>
+                    <span id='burguer' className="material-symbols-outlined">
+                        menu
+                    </span>
+                </Link>
+            </nav>
+        </header>
     );
 }
