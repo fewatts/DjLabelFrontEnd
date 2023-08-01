@@ -21,4 +21,5 @@
 .menu-option{
     margin: 55px;
     color: var(--ghost);
+    font-size: 30px;
 }

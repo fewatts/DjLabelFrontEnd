@@ -40,31 +40,24 @@ const sets = [
 
 export function Sets() {
     return (
-        <section className='section-sets'>
-            <h1 className='h1set'>Tracks:</h1>
-            <div className='card-container'>
-                {tracks.map(track => (
-                    <>
-                        <h4 className='musicgenre'>{track.genre}</h4>
-                        <div className='set'>
-                            <iframe src={track.link}></iframe>
-                        </div>
-                    </>
-                ))}
-            </div>
-            <h1 className='h1set'>Sets:</h1>
-            <div className='card-container'>
-                {sets.map(set => (
-                    <>
-                        <h4 className='musicgenre'>{set.genre}</h4>
-                        <div className='set'>
-                            <iframe src={set.link}></iframe>
-                        </div>
-                    </>
-                ))}
-            </div>
+        <section>
+            <h2 className='audios-tittle'>Tracks:</h2>
+
+            {tracks.map(track => (
+                <figure className='audio-set'>
+                    <iframe src={track.link}></iframe>
+                </figure>
+            ))}
+
+            <h2 className='audios-tittle'>Sets:</h2>
+
+            {sets.map(set => (
+                <figure className='audio-set'>
+                    <iframe src={set.link}></iframe>
+                </figure>
+            ))}
+
             <br />
         </section>
     );
 }
-
