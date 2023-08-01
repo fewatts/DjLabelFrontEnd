@@ -2,7 +2,7 @@ main{
     padding-top: 60px;
 }
 
-.logo-container {
+.logo-navbar {
     flex: 1;
 }
 
@@ -27,7 +27,7 @@ main{
     background-color: var(--charmoisee);
 }
 
-#itens2 {
+#nav-links {
     list-style: none;
     display: flex;
     gap: 50px;
@@ -48,7 +48,7 @@ a:hover {
         color: var(--grey);
     }
 
-    #itens2 {
+    #nav-links {
         display: none;
     }
 }
