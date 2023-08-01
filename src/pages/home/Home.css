@@ -1,43 +1,44 @@
-.Homepic {
+.main-Homepic {
     width: 100%;
     height: 100%;
 }
 
-.carhome{
+.section-carosel{
     background-color: var(--charmoisee);
 }
 
-.homepic {
-    height: 105vh;
+.home-tittle{
+    font-size: 48px;
+}
+
+.social-links{
+    margin: 20px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-homepic {
+    height: 103vh;
 }
 
 .abbrt {
     text-decoration: none;
 }
 
-.texthome {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.out {
-    justify-content: center;
-    margin: inherit;
-    display: flex;
-    align-items: center;
-}
 
 .soundcloud {
     margin-top: 10px;
     width: 100px;
     height: 43px;
-    margin: auto;
 }
 
 .youtube {
     width: 70px;
     height: 61px;
-    margin: auto;
 }
 
 .butcad {
@@ -48,21 +49,20 @@
     border: solid;
 }
 
-.main-home {
+.section-main {
     display: flex;
     justify-content: space-between;
 }
 
-.container {
+.aside-1-main {
     text-align: center;
     font-weight: bold;
     margin-top: 30vh;
-    padding: 2rem;
     width: auto;
-    padding: 3rem;
+    padding: 2rem;
 }
 
-.splithome {
+.section-3 {
     background-color: var(--charmoisee);
     text-align: center;
     color: var(--ghostwhite);
@@ -72,7 +72,7 @@
     box-shadow: 0px 20px 0px 0px rgba(22, 22, 22, 0.726);
 }
 
-.splithome2 {
+.section-2 {
     background-color: var(--charmoisee);
     text-align: center;
     color: var(--ghostwhite);
@@ -81,66 +81,51 @@
     height: max-content;
 }
 
-.h1ouca {
+.tittle-other-sections {
     text-align: start;
 }
 
-.intropic {
+.split-mobile {
     display: none;
 }
 
-@media screen and (max-width: 400px) {
-    .textos {
-        padding-top: 10px;
-        padding: 25px;
-    }
-}
 
 @media screen and (max-width: 1000px) {
-    .main-home {
+    .section-main {
         display: block;
-    }
-
-    .h1home{
-        font-size: 36px;
     }
 
     .hrhome {
         display: none;
     }
 
-    .textos {
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
+
+    .home-tittle{
+        font-size: 38px;
+    }
+    .aside-1-main {
+        padding: 15px;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .social-links{
         align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 100%;
+        justify-items: center;
     }
 
-    .texthome{
-        text-align: center;
+    .home-text{
+        padding: 0px 50px 0px 50px;
+        text-align: justify;
     }
 
-    .container {
-        padding: 40px;
-        margin-top: 2rem;
-    }
-
-    .Homepic {
+    .main-Homepic {
         max-width: 100%;
         height: auto;
     }
 
-    .homepic {
+    .main-homepic {
         height: auto;
-    }
-
-    .out {
-        gap: 20px;
-        margin-right: 15px;
-        margin-top: 45px;
     }
 
     .soundcloud {
@@ -156,11 +141,7 @@
         margin-left: 15px;
     }
 
-    .texthome {
-        margin-bottom: -15px;
-    }
-
-    .intropic {
+    .split-mobile {
         display: block;
         background-color: white;
         text-align: center;
@@ -171,7 +152,7 @@
         border-radius: 30px 30px 0px 0px;
     }
 
-    .Homepic {
+    .main-Homepic {
         border: solid white;
     }
 

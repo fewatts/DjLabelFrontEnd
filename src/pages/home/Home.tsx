@@ -8,38 +8,45 @@ import { Carrossel } from '../../components/carosel/Carosel';
 export function Home() {
 
     return (
-            <main>
-                <div className='main-home'>
-                    <div className='container'>
-                        <div className='textos'>
-                            <h1 className='h1home'>Bem-vindo!</h1>
-                            <h4 className='texthome'>Este é o nosso site de divulgação de Conteúdo dos artistas do <strong><abbr title="Label de Artistas Dj's" className='abbrt'>Teta Sesh</abbr></strong>. C:</h4>
-                            <div className='out'>
-                                <a href="https://soundcloud.com/tetasesh" target='blank' ><img src={soundcloud} alt="Soundcloud" className='soundcloud' /></a>
-                                <a href="https://www.youtube.com/@TetaSesh" target='blank' ><img src={youtube} alt="youtube" className='youtube' /></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='intropic'>x</div>
-                    <div className='homepic'><a href="https://www.freepik.com/free-vector/dj-tools-equipment-isometric-set-with-audio-mixer-headphone-vinyl-record-player-speakers-instruments-isolated-vector-illustration_26765259.htm#page=2&query=dj&position=12&from_view=search&track=sph"><abbr title="Image by macrovector"><img src={homeMobile} alt="pic home" className='Homepic' /></abbr></a></div>
-                </div>
-
-                <div className='splithome2'>
-                    <h1 className='h1ouca'>Artistas (A-Z):</h1>
+        <main>
+            <section className='section-main'>
+                <aside className='aside-1-main'>
+                    <h1 className='home-tittle'>Bem-vindo(a)!</h1>
+                    <h2 className='home-text'>Esse é o site do TetaSesh, um coletivo de Dj's</h2>
+                    <ul className='social-links'>
+                        <li>
+                            <a href="https://www.youtube.com/@TetaSesh" target='blank' ><img src={youtube} alt="youtube" className='youtube' /></a>
+                        </li>
+                        <li>
+                            <a href="https://soundcloud.com/tetasesh" target='blank' ><img src={soundcloud} alt="Soundcloud" className='soundcloud' /></a>
+                        </li>
+                    </ul>
+                </aside>
+                <div className='split-mobile'>x</div>
+                <picture className='main-homepic'>
+                    <a href="https://www.freepik.com/free-vector/dj-tools-equipment-isometric-set-with-audio-mixer-headphone-vinyl-record-player-speakers-instruments-isolated-vector-illustration_26765259.htm#page=2&query=dj&position=12&from_view=search&track=sph"><abbr title="Image by macrovector"><img src={homeMobile} alt="pic home" className='main-Homepic' /></abbr></a>
+                </picture>
+            </section>
+            <section>
+                <div className='section-2'>
+                    <h3 className='tittle-other-sections'>Artistas (A-Z):</h3>
                 </div>
                 <hr />
-                <section className='carhome'>
+                <aside className='section-carosel'>
                     <div className='carrossel-container'>
                         <Carrossel />
                     </div>
                     <hr />
-                </section>
-                <div className='splithome'>
-                    <h1 className='h1ouca'>Ouça:</h1>
+                </aside>
+            </section>
+            <section>
+                <div className='section-3'>
+                    <h3 className='tittle-other-sections'>Ouça:</h3>
                 </div>
-                <section>
+                <aside>
                     <Sets />
-                </section>
-            </main>
+                </aside>
+            </section>
+        </main>
     );
 }
