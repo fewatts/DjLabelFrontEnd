@@ -9,14 +9,14 @@
     box-shadow: -15px 5px 0px 1px black;
 }
 
-.carosel-container {
+.corosel-picture {
     display: flex;
     justify-content: center;
     justify-content: center;
     align-items: center;
 }
 
-.h3car{
+.corosel-tittle{
     color: var(--ghostwhite);
     margin-top: 20px;
     text-align: center;

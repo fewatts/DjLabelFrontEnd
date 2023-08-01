@@ -46,10 +46,10 @@ export const Carrossel = () => (
         mouseTracking
         items={pics.map((pic, index) => (
             <>
-                <h3 className='h3car'><strong>{pic.name}</strong></h3>
-                <div key={index} className="carosel-container">
+                <figcaption><h3 className='corosel-tittle'><strong>{pic.name}</strong></h3></figcaption>
+                <figure key={index} className="corosel-picture">
                     <img src={pic.pic} alt={`Imagem ${index + 1}`} className="carosel-img" />
-                </div>
+                </figure>
             </>
         ))}
         infinite={true}
