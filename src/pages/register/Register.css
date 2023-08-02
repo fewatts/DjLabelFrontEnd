@@ -68,6 +68,11 @@
     }
 
     .register-submit {
+        font-size: 13px;
         margin-right: 0;
+    }
+
+    .register-cancel{
+        font-size: 13px;
     }
 }
