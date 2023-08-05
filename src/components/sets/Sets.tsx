@@ -21,11 +21,11 @@ const sets = [
         genre: 'House'
     },
     {
-        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1567587547&color=%231F5673&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1584239487&color=%231f5673&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
     {
-        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1562411989&color=%231F5673&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1584232575&color=%231f5673&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
     {
