@@ -1,7 +1,6 @@
 import './Home.css';
 import homeMobile from './../../../src/assets/home-mobile.jpg';
 import soundcloud from './../../assets/soundcloud.svg';
-import youtube from './../../assets/youtube.svg';
 import { Sets } from '../../components/sets/Sets';
 import { Carrossel } from '../../components/carosel/Carosel';
 
