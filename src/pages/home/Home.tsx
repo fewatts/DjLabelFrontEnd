@@ -17,9 +17,6 @@ export function Home() {
                         <li>
                             <a href="https://soundcloud.com/tetasesh" target='blank' ><img src={soundcloud} alt="Soundcloud" className='soundcloud' /></a>
                         </li>
-                        <li>
-                            <a href="https://www.youtube.com/@TetaSesh" target='blank' ><img src={youtube} alt="youtube" className='youtube' /></a>
-                        </li>
                     </ul>
                 </aside>
                 <div className='split-mobile'>x</div>
