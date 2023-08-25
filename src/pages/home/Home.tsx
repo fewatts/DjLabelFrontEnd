@@ -1,5 +1,4 @@
 import './Home.css';
-import homeMobile from './../../../src/assets/home-mobile.jpg';
 import soundcloud from './../../assets/soundcloud.svg';
 import { Sets } from '../../components/sets/Sets';
 import { Carrossel } from '../../components/carosel/Carosel';
@@ -20,7 +19,7 @@ export function Home() {
                 </aside>
                 <div className='split-mobile'>x</div>
                 <picture className='main-homepic'>
-                    <a href="https://www.freepik.com/free-vector/dj-tools-equipment-isometric-set-with-audio-mixer-headphone-vinyl-record-player-speakers-instruments-isolated-vector-illustration_26765259.htm#page=2&query=dj&position=12&from_view=search&track=sph" target='_blank'><abbr title="Image by macrovector"><img src={homeMobile} alt="pic home" className='main-Homepic' /></abbr></a>
+                    <a href="https://www.freepik.com/free-vector/dj-tools-equipment-isometric-set-with-audio-mixer-headphone-vinyl-record-player-speakers-instruments-isolated-vector-illustration_26765259.htm#page=2&query=dj&position=12&from_view=search&track=sph" target='_blank'><abbr title="Image by macrovector"><img src="https://i.imgur.com/FLRoAta.jpg" alt="pic home" className='main-Homepic' /></abbr></a>
                 </picture>
             </section>
             <section>
