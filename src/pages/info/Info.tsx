@@ -32,7 +32,7 @@ const artists = [
     {
         name: 'SpinnenKopf',
         genre: 'Techno',
-        profilePic: 'https://i1.sndcdn.com/avatars-ptppwi5a88f6rK1y-bzyGcQ-t500x500.jpg',
+        profilePic: 'https://i1.sndcdn.com/avatars-85EWyUijeCCdeJnA-X3ROXQ-t500x500.jpg',
         soundcloudLink: 'https://soundcloud.com/user-831177117',
         instagramLink: 'https://www.instagram.com/spinnenkopf_/'
     },
