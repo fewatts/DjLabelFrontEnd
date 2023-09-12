@@ -42,6 +42,7 @@ a:hover {
     #burguer {
         display: flex;
         cursor: pointer;
+        color: var(--black);
     }
 
     #burguer:hover {

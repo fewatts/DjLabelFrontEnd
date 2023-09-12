@@ -9,6 +9,7 @@ import laomer from './../../assets/artists/laomer.jpeg';
 import ogthraxx from './../../assets/artists/ogthraxx.jpeg'
 import spinnenkopf from './../../assets/artists/spinnenkopf.jpeg';
 import zanqueta from './../../assets/artists/zanqueta.jpeg';
+import notFound from './../../assets/404.jpg'
 
 const pics = [
     {
@@ -38,6 +39,10 @@ const pics = [
     {
         name: "Zanqueta",
         pic: zanqueta
+    },
+    {
+        name: "🎛️",
+        pic: notFound
     }
 ];
 
