@@ -6,7 +6,7 @@ const tracks = [
         genre: 'DeepTech'
     },
     {
-        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1628015553%3Fsecret_token%3Ds-yBrVzVnmpN2&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1628992749%3Fsecret_token%3Ds-6CLGdsGpEkF&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
     {
