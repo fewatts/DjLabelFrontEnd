@@ -6,7 +6,11 @@ const tracks = [
         genre: 'DeepTech'
     },
     {
-        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1646807157&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1649445399&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        genre: 'Techno'
+    },
+    {
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1649461818&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
     {
@@ -28,14 +32,6 @@ const sets = [
         link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1624264323&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
-    // {
-    //     link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1630129179&color=%231f5673&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-    //     genre: 'Techno'
-    // },
-    // {
-    //     link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1617486012&color=%231f5673&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-    //     genre: 'Techno'
-    // },
     {
         link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1476515899&color=%231F5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Phonk'

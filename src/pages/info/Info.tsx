@@ -32,8 +32,8 @@ const artists = [
     {
         name: 'SpinnenKopf',
         genre: 'Techno',
-        profilePic: 'https://i1.sndcdn.com/avatars-85EWyUijeCCdeJnA-X3ROXQ-t500x500.jpg',
-        soundcloudLink: 'https://soundcloud.com/user-831177117',
+        profilePic: 'https://i1.sndcdn.com/avatars-gjzC1pzvw2Lj67IN-fHo5zA-t500x500.jpg',
+        soundcloudLink: 'https://soundcloud.com/spinner-kopf',
         instagramLink: 'https://www.instagram.com/spinnenkopf_/'
     },
     {
