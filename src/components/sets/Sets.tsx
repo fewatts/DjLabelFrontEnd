@@ -6,11 +6,15 @@ const tracks = [
         genre: 'DeepTech'
     },
     {
-        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1649445399&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1651540425&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
     {
-        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1649461818&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1651555914&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        genre: 'Techno'
+    },
+    {
+        link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1651570599&color=%231f5673&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
         genre: 'Techno'
     },
     {
