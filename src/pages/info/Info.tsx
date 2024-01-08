@@ -18,7 +18,7 @@ const artists = [
     {
         name: 'Laomer',
         genre: 'House',
-        profilePic: 'https://i1.sndcdn.com/avatars-CtkJKHCJOR3jadSK-3VrTTQ-t500x500.jpg',
+        profilePic: 'https://i1.sndcdn.com/avatars-iCiFdyIa3ZwXg7Tm-BFajgA-t500x500.jpg',
         soundcloudLink: 'https://soundcloud.com/laomer',
         instagramLink: 'https://www.instagram.com/quedorlaomer/'
     },
@@ -30,11 +30,11 @@ const artists = [
         instagramLink: 'https://www.instagram.com/ogthraxx1/'
     },
     {
-        name: 'SpinnenKopf',
-        genre: 'Techno',
-        profilePic: 'https://i1.sndcdn.com/avatars-gjzC1pzvw2Lj67IN-fHo5zA-t500x500.jpg',
-        soundcloudLink: 'https://soundcloud.com/spinner-kopf',
-        instagramLink: 'https://www.instagram.com/spinnenkopf_/'
+        name: '𝔖𝔭𝔦𝔫𝔫𝔢ß',
+        genre: 'Detroit Techno',
+        profilePic: 'https://i1.sndcdn.com/avatars-SbO34mERUbdXPgJp-IDGy7Q-t500x500.jpg',
+        soundcloudLink: 'https://soundcloud.com/djspinneb',
+        instagramLink: 'https://www.instagram.com/__spinneb__/'
     },
     {
         name: 'Zanqueta',

@@ -7,7 +7,7 @@ import costai from './../../assets/artists/costai.jpeg';
 import dabague from './../../assets/artists/dabague.jpeg';
 import laomer from './../../assets/artists/laomer.jpeg';
 import ogthraxx from './../../assets/artists/ogthraxx.jpeg'
-import spinnenkopf from './../../assets/artists/spinnenkopf.jpeg';
+import spinneb from './../../assets/artists/spinneb.jpeg';
 import zanqueta from './../../assets/artists/zanqueta.jpeg';
 import notFound from './../../assets/404.jpg'
 
@@ -33,8 +33,8 @@ const pics = [
         pic: ogthraxx
     },
     {
-        name: "Spinnenkopf",
-        pic: spinnenkopf
+        name: "𝔖𝔭𝔦𝔫𝔫𝔢ß",
+        pic: spinneb
     },
     {
         name: "Zanqueta",

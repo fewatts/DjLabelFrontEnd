@@ -25,7 +25,7 @@ export function About() {
                         <strong>Oghthraxx</strong>: Toca <strong>phonk</strong> e <strong>techno</strong>.
                     </li>
                     <li>
-                        <strong>Spinnenkopf</strong>: Toca <strong>techno peaktime</strong>, <strong>raw</strong>, <strong>hipnotic</strong> e <strong>dark</strong>.
+                        <strong>Spinnenkopf</strong>: Toca <strong>detroit techno</strong>, <strong>raw</strong>, <strong>hipnotic</strong> e <strong>dark</strong>.
                     </li>
                 </ul>
                 <br />
